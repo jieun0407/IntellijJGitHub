@@ -7,16 +7,21 @@ public class ex10809 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String S = br.readLine();
-        int arr[] = new int[26];
-
+        int arr[] = new int[27];
+        int cnt =0;
         for(char ch = 'a'; ch<='z'; ch++){
 
             for(int i =0; i<S.length();i++){
                 //char str = (S.charAt(i));
                 if(ch==S.charAt(i)){
-                    arr[i]=
+                    arr[cnt]=i;
+                    break;
                 }
+                arr[cnt] = -1;
+                cnt++;
             }
         }
+
+
     }
 }

@@ -13,7 +13,7 @@ public class ex9095 {
         arr[2] = 2;
         arr[3] = 4;
 
-        int a = 0;
+        int a;
         for(int i=0; i<T; i++){
 
             a = Integer.parseInt(br.readLine());

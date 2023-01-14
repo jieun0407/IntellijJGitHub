@@ -26,7 +26,7 @@ public class ex2193 {
 
 
         System.out.println(dp[N]);
-
+        System.out.println(22);
     }
 
 }
